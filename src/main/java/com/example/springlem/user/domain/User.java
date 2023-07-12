@@ -1,4 +1,4 @@
-package com.example.springlem.domain;
+package com.example.springlem.user.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;

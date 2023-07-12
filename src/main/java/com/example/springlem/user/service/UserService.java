@@ -1,10 +1,9 @@
-package com.example.springlem.service;
+package com.example.springlem.user.service;
 
 
-import com.example.springlem.domain.User;
-import com.example.springlem.repository.UserRepository;
+import com.example.springlem.user.domain.User;
+import com.example.springlem.user.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

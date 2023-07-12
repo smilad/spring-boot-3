@@ -1,10 +1,9 @@
-package com.example.springlem.controller;
+package com.example.springlem.user.controller;
 
 
-import com.example.springlem.domain.User;
-import com.example.springlem.service.UserService;
+import com.example.springlem.user.domain.User;
+import com.example.springlem.user.service.UserService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
